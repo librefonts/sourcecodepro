@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+  <GlyphOrder src="SourceCodePro-Bold.otf.GlyphOrder.ttx"/>
+  <head src="SourceCodePro-Bold.otf._h_e_a_d.ttx"/>
+  <hhea src="SourceCodePro-Bold.otf._h_h_e_a.ttx"/>
+  <maxp src="SourceCodePro-Bold.otf._m_a_x_p.ttx"/>
+  <OS_2 src="SourceCodePro-Bold.otf.O_S_2f_2.ttx"/>
+  <name src="SourceCodePro-Bold.otf._n_a_m_e.ttx"/>
+  <cmap src="SourceCodePro-Bold.otf._c_m_a_p.ttx"/>
+  <post src="SourceCodePro-Bold.otf._p_o_s_t.ttx"/>
+  <CFF src="SourceCodePro-Bold.otf.C_F_F_.ttx"/>
+  <BASE src="SourceCodePro-Bold.otf.B_A_S_E_.ttx"/>
+  <GDEF src="SourceCodePro-Bold.otf.G_D_E_F_.ttx"/>
+  <GPOS src="SourceCodePro-Bold.otf.G_P_O_S_.ttx"/>
+  <GSUB src="SourceCodePro-Bold.otf.G_S_U_B_.ttx"/>
+  <hmtx src="SourceCodePro-Bold.otf._h_m_t_x.ttx"/>
+  <DSIG src="SourceCodePro-Bold.otf.D_S_I_G_.ttx"/>
+</ttFont>

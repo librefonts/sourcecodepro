@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="2.4">
+  <GlyphOrder src="SourceCodePro-Bold.ttf.GlyphOrder.ttx"/>
+  <head src="SourceCodePro-Bold.ttf._h_e_a_d.ttx"/>
+  <hhea src="SourceCodePro-Bold.ttf._h_h_e_a.ttx"/>
+  <maxp src="SourceCodePro-Bold.ttf._m_a_x_p.ttx"/>
+  <OS_2 src="SourceCodePro-Bold.ttf.O_S_2f_2.ttx"/>
+  <hmtx src="SourceCodePro-Bold.ttf._h_m_t_x.ttx"/>
+  <cmap src="SourceCodePro-Bold.ttf._c_m_a_p.ttx"/>
+  <fpgm src="SourceCodePro-Bold.ttf._f_p_g_m.ttx"/>
+  <prep src="SourceCodePro-Bold.ttf._p_r_e_p.ttx"/>
+  <cvt src="SourceCodePro-Bold.ttf._c_v_t.ttx"/>
+  <loca src="SourceCodePro-Bold.ttf._l_o_c_a.ttx"/>
+  <glyf src="SourceCodePro-Bold.ttf._g_l_y_f.ttx"/>
+  <name src="SourceCodePro-Bold.ttf._n_a_m_e.ttx"/>
+  <post src="SourceCodePro-Bold.ttf._p_o_s_t.ttx"/>
+  <gasp src="SourceCodePro-Bold.ttf._g_a_s_p.ttx"/>
+  <BASE src="SourceCodePro-Bold.ttf.B_A_S_E_.ttx"/>
+  <GDEF src="SourceCodePro-Bold.ttf.G_D_E_F_.ttx"/>
+  <GPOS src="SourceCodePro-Bold.ttf.G_P_O_S_.ttx"/>
+  <GSUB src="SourceCodePro-Bold.ttf.G_S_U_B_.ttx"/>
+  <DSIG src="SourceCodePro-Bold.ttf.D_S_I_G_.ttx"/>
+</ttFont>
