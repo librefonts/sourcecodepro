@@ -1,0 +1,172 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/sourcecodepro/METADATA.json /home/travis/build/fontdirectory/sourcecodepro/builds/build
+$ cp -a /home/travis/build/fontdirectory/sourcecodepro/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/sourcecodepro/builds/build
+$ cp -a SourceCodePro-Semibold.ttf.ttx SourceCodePro-Light.ttf.ttx SourceCodePro-Black.ttf.ttx SourceCodePro-ExtraLight.ttf.ttx SourceCodePro-Regular.ttf.ttx SourceCodePro-Medium.ttf.ttx SourceCodePro-Bold.ttf.ttx src/SourceCodePro-Black.otf.ttx src/SourceCodePro-Light.otf.ttx src/SourceCodePro-Semibold.otf.ttx src/SourceCodePro-Bold.otf.ttx src/SourceCodePro-ExtraLight.otf.ttx src/SourceCodePro-Medium.otf.ttx src/SourceCodePro-Regular.otf.ttx SourceCodePro-Semibold.ttf._g_l_y_f.ttx SourceCodePro-Semibold.ttf._c_v_t.ttx SourceCodePro-Semibold.ttf.B_A_S_E_.ttx SourceCodePro-Semibold.ttf._l_o_c_a.ttx SourceCodePro-Semibold.ttf.O_S_2f_2.ttx SourceCodePro-Semibold.ttf._p_o_s_t.ttx SourceCodePro-Semibold.ttf.G_P_O_S_.ttx SourceCodePro-Semibold.ttf._p_r_e_p.ttx SourceCodePro-Semibold.ttf._h_h_e_a.ttx SourceCodePro-Semibold.ttf._c_m_a_p.ttx SourceCodePro-Semibold.ttf._g_a_s_p.ttx SourceCodePro-Semibold.ttf._n_a_m_e.ttx SourceCodePro-Semibold.ttf.GlyphOrder.ttx SourceCodePro-Semibold.ttf._m_a_x_p.ttx SourceCodePro-Semibold.ttf._h_m_t_x.ttx SourceCodePro-Semibold.ttf._f_p_g_m.ttx SourceCodePro-Semibold.ttf.G_D_E_F_.ttx SourceCodePro-Semibold.ttf.G_S_U_B_.ttx SourceCodePro-Semibold.ttf._h_e_a_d.ttx SourceCodePro-Semibold.ttf.D_S_I_G_.ttx SourceCodePro-Light.ttf.D_S_I_G_.ttx SourceCodePro-Light.ttf._p_o_s_t.ttx SourceCodePro-Light.ttf.B_A_S_E_.ttx SourceCodePro-Light.ttf.O_S_2f_2.ttx SourceCodePro-Light.ttf.G_D_E_F_.ttx SourceCodePro-Light.ttf._m_a_x_p.ttx SourceCodePro-Light.ttf._n_a_m_e.ttx SourceCodePro-Light.ttf._h_m_t_x.ttx SourceCodePro-Light.ttf._g_l_y_f.ttx SourceCodePro-Light.ttf.G_P_O_S_.ttx SourceCodePro-Light.ttf._h_e_a_d.ttx SourceCodePro-Light.ttf._c_v_t.ttx SourceCodePro-Light.ttf._h_h_e_a.ttx SourceCodePro-Light.ttf._f_p_g_m.ttx SourceCodePro-Light.ttf.G_S_U_B_.ttx SourceCodePro-Light.ttf.GlyphOrder.ttx SourceCodePro-Light.ttf._c_m_a_p.ttx SourceCodePro-Light.ttf._g_a_s_p.ttx SourceCodePro-Light.ttf._p_r_e_p.ttx SourceCodePro-Light.ttf._l_o_c_a.ttx SourceCodePro-Black.ttf._h_m_t_x.ttx SourceCodePro-Black.ttf.D_S_I_G_.ttx SourceCodePro-Black.ttf._g_a_s_p.ttx SourceCodePro-Black.ttf._c_v_t.ttx SourceCodePro-Black.ttf.GlyphOrder.ttx SourceCodePro-Black.ttf._m_a_x_p.ttx SourceCodePro-Black.ttf._c_m_a_p.ttx SourceCodePro-Black.ttf._h_h_e_a.ttx SourceCodePro-Black.ttf.G_D_E_F_.ttx SourceCodePro-Black.ttf._g_l_y_f.ttx SourceCodePro-Black.ttf._n_a_m_e.ttx SourceCodePro-Black.ttf.G_S_U_B_.ttx SourceCodePro-Black.ttf._f_p_g_m.ttx SourceCodePro-Black.ttf.B_A_S_E_.ttx SourceCodePro-Black.ttf._p_r_e_p.ttx SourceCodePro-Black.ttf._h_e_a_d.ttx SourceCodePro-Black.ttf._p_o_s_t.ttx SourceCodePro-Black.ttf._l_o_c_a.ttx SourceCodePro-Black.ttf.O_S_2f_2.ttx SourceCodePro-Black.ttf.G_P_O_S_.ttx SourceCodePro-ExtraLight.ttf._h_h_e_a.ttx SourceCodePro-ExtraLight.ttf._c_m_a_p.ttx SourceCodePro-ExtraLight.ttf._h_e_a_d.ttx SourceCodePro-ExtraLight.ttf._l_o_c_a.ttx SourceCodePro-ExtraLight.ttf._m_a_x_p.ttx SourceCodePro-ExtraLight.ttf.GlyphOrder.ttx SourceCodePro-ExtraLight.ttf._p_r_e_p.ttx SourceCodePro-ExtraLight.ttf._g_a_s_p.ttx SourceCodePro-ExtraLight.ttf._p_o_s_t.ttx SourceCodePro-ExtraLight.ttf._n_a_m_e.ttx SourceCodePro-ExtraLight.ttf.O_S_2f_2.ttx SourceCodePro-ExtraLight.ttf.G_S_U_B_.ttx SourceCodePro-ExtraLight.ttf.G_P_O_S_.ttx SourceCodePro-ExtraLight.ttf.D_S_I_G_.ttx SourceCodePro-ExtraLight.ttf._h_m_t_x.ttx SourceCodePro-ExtraLight.ttf._f_p_g_m.ttx SourceCodePro-ExtraLight.ttf._g_l_y_f.ttx SourceCodePro-ExtraLight.ttf._c_v_t.ttx SourceCodePro-ExtraLight.ttf.G_D_E_F_.ttx SourceCodePro-ExtraLight.ttf.B_A_S_E_.ttx SourceCodePro-Regular.ttf._g_a_s_p.ttx SourceCodePro-Regular.ttf._h_h_e_a.ttx SourceCodePro-Regular.ttf.G_D_E_F_.ttx SourceCodePro-Regular.ttf.GlyphOrder.ttx SourceCodePro-Regular.ttf.G_S_U_B_.ttx SourceCodePro-Regular.ttf.B_A_S_E_.ttx SourceCodePro-Regular.ttf._p_r_e_p.ttx SourceCodePro-Regular.ttf._g_l_y_f.ttx SourceCodePro-Regular.ttf.D_S_I_G_.ttx SourceCodePro-Regular.ttf._p_o_s_t.ttx SourceCodePro-Regular.ttf.G_P_O_S_.ttx SourceCodePro-Regular.ttf._f_p_g_m.ttx SourceCodePro-Regular.ttf._l_o_c_a.ttx SourceCodePro-Regular.ttf._h_e_a_d.ttx SourceCodePro-Regular.ttf._c_m_a_p.ttx SourceCodePro-Regular.ttf._n_a_m_e.ttx SourceCodePro-Regular.ttf._h_m_t_x.ttx SourceCodePro-Regular.ttf._m_a_x_p.ttx SourceCodePro-Regular.ttf.O_S_2f_2.ttx SourceCodePro-Regular.ttf._c_v_t.ttx SourceCodePro-Medium.ttf.D_S_I_G_.ttx SourceCodePro-Medium.ttf.B_A_S_E_.ttx SourceCodePro-Medium.ttf._l_o_c_a.ttx SourceCodePro-Medium.ttf._p_r_e_p.ttx SourceCodePro-Medium.ttf._n_a_m_e.ttx SourceCodePro-Medium.ttf.O_S_2f_2.ttx SourceCodePro-Medium.ttf._g_a_s_p.ttx SourceCodePro-Medium.ttf._p_o_s_t.ttx SourceCodePro-Medium.ttf.G_P_O_S_.ttx SourceCodePro-Medium.ttf._h_h_e_a.ttx SourceCodePro-Medium.ttf._c_m_a_p.ttx SourceCodePro-Medium.ttf._c_v_t.ttx SourceCodePro-Medium.ttf._m_a_x_p.ttx SourceCodePro-Medium.ttf.G_D_E_F_.ttx SourceCodePro-Medium.ttf.GlyphOrder.ttx SourceCodePro-Medium.ttf.G_S_U_B_.ttx SourceCodePro-Medium.ttf._h_m_t_x.ttx SourceCodePro-Medium.ttf._h_e_a_d.ttx SourceCodePro-Medium.ttf._f_p_g_m.ttx SourceCodePro-Medium.ttf._g_l_y_f.ttx SourceCodePro-Bold.ttf.GlyphOrder.ttx SourceCodePro-Bold.ttf.O_S_2f_2.ttx SourceCodePro-Bold.ttf._p_o_s_t.ttx SourceCodePro-Bold.ttf._h_m_t_x.ttx SourceCodePro-Bold.ttf._l_o_c_a.ttx SourceCodePro-Bold.ttf._f_p_g_m.ttx SourceCodePro-Bold.ttf.G_P_O_S_.ttx SourceCodePro-Bold.ttf._c_v_t.ttx SourceCodePro-Bold.ttf._n_a_m_e.ttx SourceCodePro-Bold.ttf.G_D_E_F_.ttx SourceCodePro-Bold.ttf._h_h_e_a.ttx SourceCodePro-Bold.ttf._g_a_s_p.ttx SourceCodePro-Bold.ttf.G_S_U_B_.ttx SourceCodePro-Bold.ttf.D_S_I_G_.ttx SourceCodePro-Bold.ttf.B_A_S_E_.ttx SourceCodePro-Bold.ttf._p_r_e_p.ttx SourceCodePro-Bold.ttf._h_e_a_d.ttx SourceCodePro-Bold.ttf._m_a_x_p.ttx SourceCodePro-Bold.ttf._c_m_a_p.ttx SourceCodePro-Bold.ttf._g_l_y_f.ttx src/SourceCodePro-Black.otf.G_S_U_B_.ttx src/SourceCodePro-Black.otf._h_m_t_x.ttx src/SourceCodePro-Black.otf._n_a_m_e.ttx src/SourceCodePro-Black.otf.B_A_S_E_.ttx src/SourceCodePro-Black.otf._p_o_s_t.ttx src/SourceCodePro-Black.otf.G_D_E_F_.ttx src/SourceCodePro-Black.otf._m_a_x_p.ttx src/SourceCodePro-Black.otf.C_F_F_.ttx src/SourceCodePro-Black.otf._h_h_e_a.ttx src/SourceCodePro-Black.otf.GlyphOrder.ttx src/SourceCodePro-Black.otf.G_P_O_S_.ttx src/SourceCodePro-Black.otf.O_S_2f_2.ttx src/SourceCodePro-Black.otf.D_S_I_G_.ttx src/SourceCodePro-Black.otf._c_m_a_p.ttx src/SourceCodePro-Black.otf._h_e_a_d.ttx src/SourceCodePro-Light.otf._c_m_a_p.ttx src/SourceCodePro-Light.otf._p_o_s_t.ttx src/SourceCodePro-Light.otf.O_S_2f_2.ttx src/SourceCodePro-Light.otf.G_P_O_S_.ttx src/SourceCodePro-Light.otf.C_F_F_.ttx src/SourceCodePro-Light.otf.G_D_E_F_.ttx src/SourceCodePro-Light.otf._h_e_a_d.ttx src/SourceCodePro-Light.otf._h_m_t_x.ttx src/SourceCodePro-Light.otf._h_h_e_a.ttx src/SourceCodePro-Light.otf.G_S_U_B_.ttx src/SourceCodePro-Light.otf.GlyphOrder.ttx src/SourceCodePro-Light.otf.D_S_I_G_.ttx src/SourceCodePro-Light.otf._n_a_m_e.ttx src/SourceCodePro-Light.otf.B_A_S_E_.ttx src/SourceCodePro-Light.otf._m_a_x_p.ttx src/SourceCodePro-Semibold.otf.G_S_U_B_.ttx src/SourceCodePro-Semibold.otf.D_S_I_G_.ttx src/SourceCodePro-Semibold.otf.O_S_2f_2.ttx src/SourceCodePro-Semibold.otf.B_A_S_E_.ttx src/SourceCodePro-Semibold.otf._n_a_m_e.ttx src/SourceCodePro-Semibold.otf.G_P_O_S_.ttx src/SourceCodePro-Semibold.otf._c_m_a_p.ttx src/SourceCodePro-Semibold.otf.C_F_F_.ttx src/SourceCodePro-Semibold.otf._p_o_s_t.ttx src/SourceCodePro-Semibold.otf._h_m_t_x.ttx src/SourceCodePro-Semibold.otf._h_e_a_d.ttx src/SourceCodePro-Semibold.otf._h_h_e_a.ttx src/SourceCodePro-Semibold.otf.G_D_E_F_.ttx src/SourceCodePro-Semibold.otf.GlyphOrder.ttx src/SourceCodePro-Semibold.otf._m_a_x_p.ttx src/SourceCodePro-Bold.otf._h_e_a_d.ttx src/SourceCodePro-Bold.otf.C_F_F_.ttx src/SourceCodePro-Bold.otf._p_o_s_t.ttx src/SourceCodePro-Bold.otf.O_S_2f_2.ttx src/SourceCodePro-Bold.otf.G_D_E_F_.ttx src/SourceCodePro-Bold.otf._n_a_m_e.ttx src/SourceCodePro-Bold.otf._h_m_t_x.ttx src/SourceCodePro-Bold.otf.G_S_U_B_.ttx src/SourceCodePro-Bold.otf.D_S_I_G_.ttx src/SourceCodePro-Bold.otf._c_m_a_p.ttx src/SourceCodePro-Bold.otf.B_A_S_E_.ttx src/SourceCodePro-Bold.otf.GlyphOrder.ttx src/SourceCodePro-Bold.otf._m_a_x_p.ttx src/SourceCodePro-Bold.otf.G_P_O_S_.ttx src/SourceCodePro-Bold.otf._h_h_e_a.ttx src/SourceCodePro-ExtraLight.otf.O_S_2f_2.ttx src/SourceCodePro-ExtraLight.otf._n_a_m_e.ttx src/SourceCodePro-ExtraLight.otf.B_A_S_E_.ttx src/SourceCodePro-ExtraLight.otf.GlyphOrder.ttx src/SourceCodePro-ExtraLight.otf.G_S_U_B_.ttx src/SourceCodePro-ExtraLight.otf.G_D_E_F_.ttx src/SourceCodePro-ExtraLight.otf._h_h_e_a.ttx src/SourceCodePro-ExtraLight.otf.D_S_I_G_.ttx src/SourceCodePro-ExtraLight.otf._c_m_a_p.ttx src/SourceCodePro-ExtraLight.otf._h_e_a_d.ttx src/SourceCodePro-ExtraLight.otf._m_a_x_p.ttx src/SourceCodePro-ExtraLight.otf._h_m_t_x.ttx src/SourceCodePro-ExtraLight.otf.C_F_F_.ttx src/SourceCodePro-ExtraLight.otf._p_o_s_t.ttx src/SourceCodePro-ExtraLight.otf.G_P_O_S_.ttx src/SourceCodePro-Medium.otf.G_D_E_F_.ttx src/SourceCodePro-Medium.otf._h_e_a_d.ttx src/SourceCodePro-Medium.otf.D_S_I_G_.ttx src/SourceCodePro-Medium.otf.GlyphOrder.ttx src/SourceCodePro-Medium.otf._h_h_e_a.ttx src/SourceCodePro-Medium.otf.G_P_O_S_.ttx src/SourceCodePro-Medium.otf._p_o_s_t.ttx src/SourceCodePro-Medium.otf.G_S_U_B_.ttx src/SourceCodePro-Medium.otf._c_m_a_p.ttx src/SourceCodePro-Medium.otf.C_F_F_.ttx src/SourceCodePro-Medium.otf.B_A_S_E_.ttx src/SourceCodePro-Medium.otf._m_a_x_p.ttx src/SourceCodePro-Medium.otf.O_S_2f_2.ttx src/SourceCodePro-Medium.otf._h_m_t_x.ttx src/SourceCodePro-Medium.otf._n_a_m_e.ttx src/SourceCodePro-Regular.otf.G_S_U_B_.ttx src/SourceCodePro-Regular.otf._h_m_t_x.ttx src/SourceCodePro-Regular.otf._h_e_a_d.ttx src/SourceCodePro-Regular.otf.C_F_F_.ttx src/SourceCodePro-Regular.otf._m_a_x_p.ttx src/SourceCodePro-Regular.otf._c_m_a_p.ttx src/SourceCodePro-Regular.otf.O_S_2f_2.ttx src/SourceCodePro-Regular.otf.B_A_S_E_.ttx src/SourceCodePro-Regular.otf.G_P_O_S_.ttx src/SourceCodePro-Regular.otf._n_a_m_e.ttx src/SourceCodePro-Regular.otf._h_h_e_a.ttx src/SourceCodePro-Regular.otf._p_o_s_t.ttx src/SourceCodePro-Regular.otf.D_S_I_G_.ttx src/SourceCodePro-Regular.otf.GlyphOrder.ttx src/SourceCodePro-Regular.otf.G_D_E_F_.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Semibold.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Black.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Light.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Semibold.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Light.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Bold.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-ExtraLight.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Black.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-ExtraLight.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Medium.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Regular.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Medium.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Regular.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Bold.ttf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Semibold.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Semibold.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProSemibold-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Black.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Black.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProBlack-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Light.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Light.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Semibold.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Semibold.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProSemibold-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Light.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Light.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Bold.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Bold.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-ExtraLight.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): FAIL
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-ExtraLight.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProExtraLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Black.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Black.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProBlack-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-ExtraLight.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): FAIL
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-ExtraLight.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProExtraLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Medium.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Medium.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProMedium-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Regular.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Medium.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Medium.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProMedium-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Regular.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Regular.otf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx SourceCodePro-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Bold.ttf.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/sourcecodepro/builds/build /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProLight-Regular.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProSemibold-Regular.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProMedium-Regular.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProBlack-Regular.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Bold.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodePro-Regular.ttx /home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProExtraLight-Regular.ttx
+ERROR: BUILD FAILED
+Compiling "/home/travis/build/fontdirectory/sourcecodepro/builds/build/sources/SourceCodeProLight-Regular.ttx" to "/home/travis/build/fontdirectory/sourcecodepro/builds/build/SourceCodeProLight-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'BASE' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...

@@ -1,0 +1,9 @@
+commit: HEAD
+process_files: [SourceCodePro-Semibold.ttf.ttx, SourceCodePro-Light.ttf.ttx, SourceCodePro-Black.ttf.ttx,
+  SourceCodePro-ExtraLight.ttf.ttx, SourceCodePro-Regular.ttf.ttx, SourceCodePro-Medium.ttf.ttx,
+  SourceCodePro-Bold.ttf.ttx, src/SourceCodePro-Black.otf.ttx, src/SourceCodePro-Light.otf.ttx,
+  src/SourceCodePro-Semibold.otf.ttx, src/SourceCodePro-Bold.otf.ttx, src/SourceCodePro-ExtraLight.otf.ttx,
+  src/SourceCodePro-Medium.otf.ttx, src/SourceCodePro-Regular.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
